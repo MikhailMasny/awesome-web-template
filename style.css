@@ -277,3 +277,137 @@
     color: #FFFFFF;
     background: #FF7549;
 }
+
+/* STRATEGY SECTION */
+
+.strategy {
+    margin-top: 30px;
+}
+
+/* STRATEGY TITLE */
+
+.strategy__title-indent {
+    padding-bottom: 14px;
+}
+
+.strategy__title-style {
+    font: normal bold 34px/46px 'Open Sans', sans-serif;
+
+    /* font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 46px; */
+
+    color: #2F281E;
+}
+
+/* STRATEGY TEXT */
+
+.strategy__text-indent {
+    padding-bottom: 24px;
+}
+
+.strategy__text-style {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+/* STRATEGY BADGE */
+
+.strategy__badges-main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.strategy__badges-card {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 33px 0px 33px;
+}
+
+.strategy__badge {
+    box-sizing: border-box;
+    margin-right: 7px;
+    border-radius: 90px;
+    padding: 0px 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 28px;
+}
+
+.strategy__badge:last-child {
+    margin-right: 0px;
+}
+
+.strategy__badge-enable {
+    background: #FF9900;
+    border: 1px solid #FF9900;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.strategy__badge-disable {
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    color: #544837;
+    cursor: pointer;
+}
+
+.strategy__badge-display {
+    background: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    color: #544837;
+}
+
+/* STRATEGY CARDS */
+
+.strategy__cards {
+    height: 1191px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.strategy__card {
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.strategy__cards-indent {
+    padding-top: 31px;
+}
+
+.strategy__card-normal {
+    width: 377px;
+    height: 377px;
+}
+
+.strategy__card-big {
+    width: 787px;
+    height: 377px;
+}
+
+.strategy__image-card {
+    width: 100%;
+}
+
+.strategy__name {
+    padding: 24px 33px 29px 33px;
+}
+
+.strategy__name-card {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    color: #2F281E;
+}
