@@ -81,7 +81,7 @@
 /* SECTION HERO */
 
 .hero {
-    margin: 30px;
+    margin-top: 30px;
 }
 
 .hero__content {
@@ -95,6 +95,8 @@
     height: 331px;
     width: 550px;
 }
+
+/* HERO INFORMATION */
 
 .hero__topic {
     padding-bottom: 54px;
@@ -152,4 +154,126 @@
 
 .hero__link-margin {
     margin-left: 44px;
+}
+
+/* SECTION DESIGN */
+
+.design {
+    margin-top: 111px;
+}
+
+.design__content {
+    height: 494px;
+    background: url("./assets/images/design-background.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/* DESING TITLE */
+
+.design__title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.design__title-text {
+    width: 462px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #2F281E;
+}
+
+/* DESIGN CARDS */
+
+.design__cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.design__card {
+    width: 262px;
+    height: 178px;
+}
+
+/* DESIGN ICONS */
+
+.design__icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    display: flex;
+}
+
+.design__fas-modified {
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.design__icon-pointer {
+    background: #7752BE;
+}
+
+.design__icon-dev {
+    background: #FAB005;
+}
+
+.design__icon-heart {
+    background: #F03E3D;
+}
+
+.design__icon-time {
+    background: #4DADF7;
+}
+
+/* DESIGN BODY */
+
+.design__name {
+    padding-top: 30px;
+    padding-bottom: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #2F281E;
+}
+
+.design__text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+/* DESIGN BUTTON */
+
+.design__now {
+    display: flex;
+    justify-content: center;
+}
+
+.design__button {
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.design__button-registration {
+    border: none;
+    padding: 16px 38px;
+    color: #FFFFFF;
+    background: #FF7549;
 }
