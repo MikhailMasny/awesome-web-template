@@ -1,9 +1,6 @@
 .about {
-
-}
-
-.about__margin-indent {
-    margin-top: 96px;
+    padding-top: 48px;
+    padding-bottom: 101px;
 }
 
 .about__title {

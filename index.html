@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productly</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/hero.css">
+    <link rel="stylesheet" href="assets/css/design.css">
+    <link rel="stylesheet" href="assets/css/strategy.css">
     <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 <body>
-    <!-- <header class="header">
+    <header class="header">
         <div class="wrapper">
             <div class="header__content">
                 <div class="header__logo">
@@ -20,10 +23,10 @@
                 </div>
                 <div class="header__menu">
                     <ul class="header__nav">
-                        <li class="header__nav-item">Home</li>
-                        <li class="header__nav-item">Services</li>
-                        <li class="header__nav-item">About</li>
-                        <li class="header__nav-item">Product</li>
+                        <li class="header__item header__item-indent">Home</li>
+                        <li class="header__item header__item-indent">Services</li>
+                        <li class="header__item header__item-indent">About</li>
+                        <li class="header__item">Product</li>
                     </ul>
                 </div>
                 <div class="header__auth">
@@ -37,17 +40,13 @@
         <div class="wrapper">
             <div class="hero__content">
                 <div class="hero__start">
-                    <div class="hero__topic">
-                        <div class="hero__title">
-                            <p>The Design Thinking superpowers</p>
-                        </div>
-                        <div class="hero__text">
-                            <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-                        </div>
+                    <div class="hero__topic hero__topic-indent">
+                        <div class="hero__title hero__title-indent">The Design Thinking superpowers</div>
+                        <div class="hero__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</div>
                     </div>
                     <div class="hero__interactive">
                         <button class="hero__button hero__button-start">Get started</button>
-                        <a class="hero__link hero__link-margin" href=""><i class="fas fa-play hero__fas-margin"></i>Watch the Video</a>
+                        <a class="hero__link hero__link-indent" href=""><i class="fas fa-play hero__fas-indent"></i>Watch the Video</a>
                     </div>
                 </div>
                 <div class="hero__banner">
@@ -97,194 +96,252 @@
                 </div>
             </div>
         </div>
-    </section> -->
-    <!-- <section class="strategy">
+    </section>
+    <section class="strategy">
         <div class="wrapper">
-            <div class="strategy__title strategy__title-indent">
-                <p class="strategy__title-style">Marketing Strategies</p>
-            </div>
-            <div class="strategy__text strategy__text-indent">
-                <p class="strategy__text-style">Join 40,000+ other marketers and get proven strategies on email marketing</p>
-            </div>
-            <div class="strategy__badges strategy__badges-main">
-                <button class="strategy__badge strategy__badge-enable">All</button>
-                <button class="strategy__badge strategy__badge-disable">Art</button>
-                <button class="strategy__badge strategy__badge-disable">Culture</button>
-                <button class="strategy__badge strategy__badge-disable">Design</button>
-            </div>
-            <div class="strategy__cards strategy__cards-indent">
-                <div class="strategy__card strategy__card-normal">
-                    <div class="strategy__image">
-                        <img class="strategy__image-card" src="assets/images/strategy/pic1.png" alt="">
-                    </div>
-                    <div class="strategy__name">
-                        <p class="strategy__name-card">Increasing Prosperity With Positive Thinking</p>
-                    </div>
-                    <div class="strategy__badges strategy__badges-card">
-                        <button class="strategy__badge strategy__badge-display">Art</button>
-                        <button class="strategy__badge strategy__badge-display">Design</button>
-                    </div>
+            <div class="strategy__content">
+                <div class="strategy__title strategy__title-indent">
+                    <p class="strategy__title-style">Marketing Strategies</p>
                 </div>
-                <div class="strategy__card strategy__card-normal">
-                    <div class="strategy__image">
-                        <img class="strategy__image-card" src="assets/images/strategy/pic2.png" alt="">
-                    </div>
-                    <div class="strategy__name">
-                        <p class="strategy__name-card">Motivation Is The First Step To Success</p>
-                    </div>
-                    <div class="strategy__badges strategy__badges-card">
-                        <button class="strategy__badge strategy__badge-display">Culture</button>
-                    </div>
+                <div class="strategy__text strategy__text-indent">
+                    <p class="strategy__text-style">Join 40,000+ other marketers and get proven strategies on email marketing</p>
                 </div>
-                <div class="strategy__card strategy__card-normal">
-                    <div class="strategy__image">
-                        <img class="strategy__image-card" src="assets/images/strategy/pic3.png" alt="">
-                    </div>
-                    <div class="strategy__name">
-                        <p class="strategy__name-card">Success Steps For Your Personal Or Business Life</p>
-                    </div>
-                    <div class="strategy__badges strategy__badges-card">
-                        <button class="strategy__badge strategy__badge-display">Culture</button>
-                        <button class="strategy__badge strategy__badge-display">Design</button>
-                        <button class="strategy__badge strategy__badge-display">Art</button>
-                    </div>
+                <div class="strategy__badges strategy__badges-main strategy__badges-indent">
+                    <button class="strategy__badge strategy__badge-enable">All</button>
+                    <button class="strategy__badge strategy__badge-disable">Art</button>
+                    <button class="strategy__badge strategy__badge-disable">Culture</button>
+                    <button class="strategy__badge strategy__badge-disable">Design</button>
                 </div>
-                <div class="strategy__card strategy__card-big">
-                    <div class="strategy__image">
-                        <img class="strategy__image-card" src="assets/images/strategy/pic4.png" alt="">
-                    </div>
-                    <div class="strategy__name">
-                        <p class="strategy__name-card">Success Steps For Your Personal Or Business Life Plus Funny Image on the Back</p>
-                    </div>
-                    <div class="strategy__badges strategy__badges-card">
-                        <button class="strategy__badge strategy__badge-display">Culture</button>
-                        <button class="strategy__badge strategy__badge-display">Design</button>
-                        <button class="strategy__badge strategy__badge-display">Art</button>
-                    </div>
-                </div>
-                <div class="strategy__card strategy__card-normal">
-                    <div class="strategy__image">
+                <div class="strategy__cards">
+                    <div class="strategy__card strategy__card-normal">
                         <div class="strategy__image">
-                            <img class="strategy__image-card" src="assets/images/strategy/pic5.png" alt="">
+                            <img class="strategy__image-card" src="assets/images/strategy/pic1.png" alt="">
+                        </div>
+                        <div class="strategy__name">
+                            <p class="strategy__description">Increasing Prosperity With Positive Thinking</p>
+                        </div>
+                        <div class="strategy__badges strategy__badges-card">
+                            <button class="strategy__badge strategy__badge-display">Art</button>
+                            <button class="strategy__badge strategy__badge-display">Design</button>
                         </div>
                     </div>
-                    <div class="strategy__name">
-                        <p class="strategy__name-card">Increasing Prosperity With Positive Thinking</p>
+                    <div class="strategy__card strategy__card-normal">
+                        <div class="strategy__image">
+                            <img class="strategy__image-card" src="assets/images/strategy/pic2.png" alt="">
+                        </div>
+                        <div class="strategy__name">
+                            <p class="strategy__description">Motivation Is The First Step To Success</p>
+                        </div>
+                        <div class="strategy__badges strategy__badges-card">
+                            <button class="strategy__badge strategy__badge-display">Culture</button>
+                        </div>
                     </div>
-                    <div class="strategy__badges strategy__badges-card">
-                        <button class="strategy__badge strategy__badge-display">Design</button>
+                    <div class="strategy__card strategy__card-normal">
+                        <div class="strategy__image">
+                            <img class="strategy__image-card" src="assets/images/strategy/pic3.png" alt="">
+                        </div>
+                        <div class="strategy__name">
+                            <p class="strategy__description">Success Steps For Your Personal Or Business Life</p>
+                        </div>
+                        <div class="strategy__badges strategy__badges-card">
+                            <button class="strategy__badge strategy__badge-display">Culture</button>
+                            <button class="strategy__badge strategy__badge-display">Design</button>
+                            <button class="strategy__badge strategy__badge-display">Art</button>
+                        </div>
                     </div>
-                </div>
-                <div class="strategy__card strategy__card-normal">
-                    <div class="strategy__image">
-                        <img class="strategy__image-card" src="assets/images/strategy/pic1.png" alt="">
+                    <div class="strategy__card strategy__card-big">
+                        <div class="strategy__image">
+                            <img class="strategy__image-card" src="assets/images/strategy/pic4.png" alt="">
+                        </div>
+                        <div class="strategy__name">
+                            <p class="strategy__description">Success Steps For Your Personal Or Business Life Plus Funny Image on the Back</p>
+                        </div>
+                        <div class="strategy__badges strategy__badges-card">
+                            <button class="strategy__badge strategy__badge-display">Culture</button>
+                            <button class="strategy__badge strategy__badge-display">Design</button>
+                            <button class="strategy__badge strategy__badge-display">Art</button>
+                        </div>
                     </div>
-                    <div class="strategy__name">
-                        <p class="strategy__name-card">Increasing Prosperity With Positive Thinking</p>
+                    <div class="strategy__card strategy__card-normal">
+                        <div class="strategy__image">
+                            <div class="strategy__image">
+                                <img class="strategy__image-card" src="assets/images/strategy/pic5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="strategy__name">
+                            <p class="strategy__description">Increasing Prosperity With Positive Thinking</p>
+                        </div>
+                        <div class="strategy__badges strategy__badges-card">
+                            <button class="strategy__badge strategy__badge-display">Design</button>
+                        </div>
                     </div>
-                    <div class="strategy__badges strategy__badges-card">
-                        <button class="strategy__badge strategy__badge-display">Art</button>
-                        <button class="strategy__badge strategy__badge-display">Design</button>
+                    <div class="strategy__card strategy__card-normal">
+                        <div class="strategy__image">
+                            <img class="strategy__image-card" src="assets/images/strategy/pic1.png" alt="">
+                        </div>
+                        <div class="strategy__name">
+                            <p class="strategy__description">Increasing Prosperity With Positive Thinking</p>
+                        </div>
+                        <div class="strategy__badges strategy__badges-card">
+                            <button class="strategy__badge strategy__badge-display">Art</button>
+                            <button class="strategy__badge strategy__badge-display">Design</button>
+                        </div>
                     </div>
-                </div>
-                <div class="strategy__card strategy__card-normal">
-                    <div class="strategy__image">
-                        <img class="strategy__image-card" src="assets/images/strategy/pic2.png" alt="">
+                    <div class="strategy__card strategy__card-normal">
+                        <div class="strategy__image">
+                            <img class="strategy__image-card" src="assets/images/strategy/pic2.png" alt="">
+                        </div>
+                        <div class="strategy__name">
+                            <p class="strategy__description">Motivation Is The First Step To Success</p>
+                        </div>
+                        <div class="strategy__badges strategy__badges-card">
+                            <button class="strategy__badge strategy__badge-display">Culture</button>
+                        </div>
                     </div>
-                    <div class="strategy__name">
-                        <p class="strategy__name-card">Motivation Is The First Step To Success</p>
-                    </div>
-                    <div class="strategy__badges strategy__badges-card">
-                        <button class="strategy__badge strategy__badge-display">Culture</button>
-                    </div>
-                </div>
-                <div class="strategy__card strategy__card-normal">
-                    <div class="strategy__image">
-                        <img class="strategy__image-card" src="assets/images/strategy/pic3.png" alt="">
-                    </div>
-                    <div class="strategy__name">
-                        <p class="strategy__name-card">Success Steps For Your Personal Or Business Life</p>
-                    </div>
-                    <div class="strategy__badges strategy__badges-card">
-                        <button class="strategy__badge strategy__badge-display">Culture</button>
-                        <button class="strategy__badge strategy__badge-display">Design</button>
-                        <button class="strategy__badge strategy__badge-display">Art</button>
+                    <div class="strategy__card strategy__card-normal">
+                        <div class="strategy__image">
+                            <img class="strategy__image-card" src="assets/images/strategy/pic3.png" alt="">
+                        </div>
+                        <div class="strategy__name">
+                            <p class="strategy__description">Success Steps For Your Personal Or Business Life</p>
+                        </div>
+                        <div class="strategy__badges strategy__badges-card">
+                            <button class="strategy__badge strategy__badge-display">Culture</button>
+                            <button class="strategy__badge strategy__badge-display">Design</button>
+                            <button class="strategy__badge strategy__badge-display">Art</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
-    <div class="wrapper">
-        <!-- <section class="about about__margin-indent">
-            <div class="about__title about__title-indent">About Us</div>
-            <div class="about__text about__text-indent">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</div>
-            <div class="about__cards">
-                <div class="about__card about__card-indent">
-                    <div class="about__info">
-                        <div class="about__name">Kathy Rosenberg</div>
-                        <div class="about__role">Product Mannager</div>
-                        <div class="about__mail">kathyr@gmail.com</div>
-                    </div>
-                    <div class="about__avatar">
-                        <div class="about__image"></div>
-                    </div>
-                </div>
-                <div class="about__card about__card-indent">
-                    <div class="about__info">
-                        <div class="about__name">Kathy Rosenberg</div>
-                        <div class="about__role">Product Mannager</div>
-                        <div class="about__mail">kathyr@gmail.com</div>
-                    </div>
-                    <div class="about__avatar">
-                        <div class="about__image"></div>
-                    </div>
-                </div>
-                <div class="about__card">
-                    <div class="about__info">
-                        <div class="about__name">Kathy Rosenberg</div>
-                        <div class="about__role">Product Mannager</div>
-                        <div class="about__mail">kathyr@gmail.com</div>
-                    </div>
-                    <div class="about__avatar">
-                        <div class="about__image"></div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <section class="contact contact__margin-indent">
-            <div class="contact__title contact__title-indent">Contact Us</div>
-            <div class="contact__wrapper">
-                <div class="contact__info">
-                    <div class="contact__text contact__text-indent">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</div>
-                    <div class="contact__phones">
-                        <div class="contact__phone contact__phone-indent">
-                            <div class="contact__image contact__image-indent">
-                                <div class="contact__icon contact__icon-phone"></div>
-                            </div>
-                            <div class="contact__num">+375 (22) 345-00-99</div>
+    </section>
+    <section class="about">
+        <div class="wrapper">
+            <div class="about__content">
+                <div class="about__title about__title-indent">About Us</div>
+                <div class="about__text about__text-indent">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</div>
+                <div class="about__cards">
+                    <div class="about__card about__card-indent">
+                        <div class="about__info">
+                            <div class="about__name">Kathy Rosenberg</div>
+                            <div class="about__role">Product Mannager</div>
+                            <div class="about__mail">kathyr@gmail.com</div>
                         </div>
-                        <div class="contact__phone contact__phone-indent">
-                            <div class="contact__image contact__image-indent">
-                                <div class="contact__icon contact__icon-mail"></div>
-                            </div>
-                            <div class="contact__num">+375 (22) 345-00-99</div>
+                        <div class="about__avatar">
+                            <div class="about__image"></div>
+                        </div>
+                    </div>
+                    <div class="about__card about__card-indent">
+                        <div class="about__info">
+                            <div class="about__name">Kathy Rosenberg</div>
+                            <div class="about__role">Product Mannager</div>
+                            <div class="about__mail">kathyr@gmail.com</div>
+                        </div>
+                        <div class="about__avatar">
+                            <div class="about__image"></div>
+                        </div>
+                    </div>
+                    <div class="about__card">
+                        <div class="about__info">
+                            <div class="about__name">Kathy Rosenberg</div>
+                            <div class="about__role">Product Mannager</div>
+                            <div class="about__mail">kathyr@gmail.com</div>
+                        </div>
+                        <div class="about__avatar">
+                            <div class="about__image"></div>
                         </div>
                     </div>
                 </div>
-                <form class="contact__form" action="" method="post">
-                    <div class="contact__inputs contact__input-indent">
-                        <input class="contact__input" type="text" name="" id="" placeholder="Your name">
-                        <input class="contact__input" type="email" name="" id="" placeholder="Your email">
-                    </div>
-                    <textarea class="contact__textarea contact__textarea-indent" name="" id="" cols="65" rows="4" placeholder="What do you want to ask?"></textarea>
-                    <button class="contact__button" type="submit">Send</button>
-                </form>
             </div>
-        </section>
-    </div>
-    
-    
-    <footer></footer>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="wrapper">
+            <div class="contact__content">
+                <div class="contact__title contact__title-indent">Contact Us</div>
+                <div class="contact__wrapper">
+                    <div class="contact__info">
+                        <div class="contact__text contact__text-indent">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</div>
+                        <div class="contact__phones">
+                            <div class="contact__phone contact__phone-indent">
+                                <div class="contact__image contact__image-indent">
+                                    <div class="contact__icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                </div>
+                                <div class="contact__num">+375 (22) 345-00-99</div>
+                            </div>
+                            <div class="contact__phone contact__phone-indent">
+                                <div class="contact__image contact__image-indent">
+                                    <div class="contact__icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="contact__num">+375 (22) 345-00-99</div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact__form" action="" method="post">
+                        <div class="contact__inputs contact__input-indent">
+                            <input class="contact__input" type="text" name="" id="" placeholder="Your name">
+                            <input class="contact__input" type="email" name="" id="" placeholder="Your email">
+                        </div>
+                        <textarea class="contact__textarea contact__textarea-indent" name="" id="" placeholder="What do you want to ask?"></textarea>
+                        <button class="contact__button" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__columns">
+                <div class="footer__column footer__column-one">
+                    <img src="assets/images/logotip.png" alt="" srcset="">
+                </div>
+                <div class="footer__column footer__column-two">
+                    <div class="footer__header footer__header-indent">Quick Links</div>
+                    <div class="footer__text">
+                        <a href="#" class="footer__link">About Us</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#" class="footer__link">Blog</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#" class="footer__link">Contact</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#" class="footer__link">FAQ</a>
+                    </div>
+                </div>
+                <div class="footer__column footer__column-three">
+                    <div class="footer__header footer__header-indent">Legal Stuff</div>
+                    <div class="footer__text">
+                        <a href="#" class="footer__link">Disclaimer</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#" class="footer__link">Financing</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#" class="footer__link">Privacy Policy</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#" class="footer__link">Terms of Service</a>
+                    </div>
+                </div>
+                <div class="footer__column footer__column-four">
+                    <div class="footer__header footer__header-indent">Account</div>
+                    <div class="footer__text">
+                        <a href="#" class="footer__link">Sign in</a>
+                    </div>
+                    <div class="footer__text">
+                        <a href="#" class="footer__link">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="app.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </body>
 </html>
