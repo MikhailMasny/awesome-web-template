@@ -1,9 +1,9 @@
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1420px) {
     .wrapper {
-        width: 1000px;
+        width: 980px;
     }
     .hero__link-indent {
-        margin-left: 20px;
+        margin-left: 8px;
     }
     .design__cards {
         padding-bottom: 40px;
@@ -13,15 +13,21 @@
         height: 210px;
     }
     .strategy__card-normal {
-        width: 320px;
+        width: 310px;
     }
     .strategy__card-big {
-        width: 660px;
+        width: 645px;
+    }
+    .strategy__image-card {
+        height: 165px;
     }
     .about__card {
         width: 310px;
     }
     .about__image {
         left: 32px;
+    }
+    .contact__info {
+        width: 380px;
     }
 }

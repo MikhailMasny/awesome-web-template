@@ -2,14 +2,13 @@
 
 .design {
     padding-top: 55px;
-    padding-bottom: 15px;
+    background: url("/assets/images/design-background.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .design__content {
     height: 494px;
-    background: url("/assets/images/design-background.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
 }
 
 /* DESING TITLE */

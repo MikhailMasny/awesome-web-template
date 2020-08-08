@@ -12,6 +12,18 @@
     height: 78px;
 }
 
+.header__control {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__burger {
+    display: none;
+    cursor: pointer;
+}
+
 /* HEADER NAVIGATION */
 
 .header__nav {
