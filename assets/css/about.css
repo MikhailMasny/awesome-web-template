@@ -31,6 +31,7 @@
 
 .about__cards {
     display: flex;
+    justify-content: space-around;
 }
 
 .about__card {
@@ -42,10 +43,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.about__card-indent {
-    margin-right: 65px;
 }
 
 .about__name {
