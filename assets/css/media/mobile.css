@@ -1,0 +1,147 @@
+@media screen and (max-width: 736px) {
+    .wrapper {
+        width: 290px;
+    }
+    .header__auth {
+        display: none;
+    }
+    .hero {
+        padding-top: 12px;
+        padding-bottom: 0;
+    }
+    .hero__content {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero__banner {
+        order: 0;
+        overflow-x: auto;
+    }
+    .hero__image {
+        height: 216px;
+    }
+    .hero__start {
+        order: 1;
+        width: auto;
+        height: auto;
+    }
+    .hero__topic-indent {
+        margin-top: 16px;
+        margin-bottom: 29px;
+    }
+    .hero__title {
+        text-align: center;
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .hero__title-indent {
+        margin-bottom: 9px;
+    }
+    .hero__text {
+        text-align: center;
+    }
+    .hero__interactive {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .hero__link-indent {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    .design {
+        padding-top: 50px;
+    }
+    .design__content {
+        height: 910px;
+    }
+    .design__title {
+        padding-bottom: 40px;
+    }
+    .design__title-text {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .design__name {
+        padding-top: 8px;
+        padding-bottom: 4px;
+    }
+    .design__card {
+        height: 170px;
+    }
+    .design__cards {
+        padding-bottom: 36px;
+    }
+    .strategy {
+        padding-top: 70px;
+    }
+    .strategy__title-style {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .strategy__text-indent {
+        padding-bottom: 20px;
+    }
+    .strategy__card-normal {
+        width: 290px;
+    }
+    .strategy__card-big {
+        width: 290px;
+    }
+    .strategy__cards {
+        height: 3200px;
+    }
+    .about {
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+    .about__title {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .about__text-indent {
+        margin-bottom: 20px;
+    }
+    .about__card {
+        width: 280px;
+    }
+    .about__image {
+        left: 0;
+    }
+    .contact {
+        padding-top: 34px;
+        padding-bottom: 50px;
+    }
+    .contact__title {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .contact__num {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .contact__form {
+        width: 290px;
+    }
+    .contact__inputs {
+        height: 110px;
+        flex-wrap: wrap;
+    }
+    .contact__textarea {
+        width: 250px;
+    }
+    .footer {
+        padding-bottom: 0;
+    }
+    .footer__columns {
+        flex-wrap: wrap;
+    }
+    .footer__column {
+        width: 250px;
+    }
+    .footer__column-indent {
+        margin-bottom: 25px;
+    }
+}
