@@ -144,4 +144,18 @@
     .footer__column-indent {
         margin-bottom: 25px;
     }
+    .modal__content {
+        width: 300px;
+    }
+    .modal__image {
+        display: none;
+    }
+    .modal__title {
+        font-size: 21px;
+        line-height: 31px;
+    }
+    .modal__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }

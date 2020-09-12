@@ -13,11 +13,23 @@
     <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
     <link rel="stylesheet" href="assets/css/media/desktop.css">
     <link rel="stylesheet" href="assets/css/media/tablet.css">
     <link rel="stylesheet" href="assets/css/media/mobile.css">
 </head>
 <body>
+    <div class="modal modal__hidden">
+        <span class="modal__close" title="Close Modal">×</span>
+        <div class="modal__content">
+            <img class="modal__image" src="assets/images/strategy/pic4.png" alt="">
+            <div class="modal__data">
+                <div class="modal__date modal__date-indent">01/01/2000</div>
+                <div class="modal__title modal__title-indent">Motivation Is The First Step To Success</div>
+                <div class="modal__text">Knowing yourself is the first, and a very critical step in the process of planning your future. How can you figure out what you want to do with your life if you don’t know: What am I going to do with the  rest of my life? What is my dream job? What do I enjoy doing? What’s my passion? What kind of career fits my personality?</div>
+            </div>
+        </div>
+    </div>
     <header class="header">
         <div class="wrapper">
             <div class="header__content">
@@ -126,7 +138,7 @@
                             <img class="strategy__image-card" src="assets/images/strategy/pic1.png" alt="">
                         </div>
                         <div class="strategy__name">
-                            <p class="strategy__description">Increasing Prosperity With Positive Thinking</p>
+                            <p data-strategy="identifier-1" class="strategy__description">Increasing Prosperity With Positive Thinking</p>
                         </div>
                         <div class="strategy__badges strategy__badges-card">
                             <button class="strategy__badge strategy__badge-display">Art</button>
@@ -138,7 +150,7 @@
                             <img class="strategy__image-card" src="assets/images/strategy/pic2.png" alt="">
                         </div>
                         <div class="strategy__name">
-                            <p class="strategy__description">Motivation Is The First Step To Success</p>
+                            <p data-strategy="identifier-2" class="strategy__description">Motivation Is The First Step To Success</p>
                         </div>
                         <div class="strategy__badges strategy__badges-card">
                             <button class="strategy__badge strategy__badge-display">Culture</button>
@@ -149,7 +161,7 @@
                             <img class="strategy__image-card" src="assets/images/strategy/pic3.png" alt="">
                         </div>
                         <div class="strategy__name">
-                            <p class="strategy__description">Success Steps For Your Personal Or Business Life</p>
+                            <p data-strategy="identifier-3" class="strategy__description">Success Steps For Your Personal Or Business Life</p>
                         </div>
                         <div class="strategy__badges strategy__badges-card">
                             <button class="strategy__badge strategy__badge-display">Culture</button>
@@ -162,7 +174,7 @@
                             <img class="strategy__image-card" src="assets/images/strategy/pic4.png" alt="">
                         </div>
                         <div class="strategy__name">
-                            <p class="strategy__description">Success Steps For Your Personal Or Business Life Plus Funny Image on the Back</p>
+                            <p data-strategy="identifier-4" class="strategy__description">Success Steps For Your Personal Or Business Life Plus Funny Image on the Back</p>
                         </div>
                         <div class="strategy__badges strategy__badges-card">
                             <button class="strategy__badge strategy__badge-display">Culture</button>
@@ -177,7 +189,7 @@
                             </div>
                         </div>
                         <div class="strategy__name">
-                            <p class="strategy__description">Increasing Prosperity With Positive Thinking</p>
+                            <p data-strategy="identifier-5" class="strategy__description">Increasing Prosperity With Positive Thinking</p>
                         </div>
                         <div class="strategy__badges strategy__badges-card">
                             <button class="strategy__badge strategy__badge-display">Design</button>
@@ -188,7 +200,7 @@
                             <img class="strategy__image-card" src="assets/images/strategy/pic1.png" alt="">
                         </div>
                         <div class="strategy__name">
-                            <p class="strategy__description">Increasing Prosperity With Positive Thinking</p>
+                            <p data-strategy="identifier-6" class="strategy__description">Increasing Prosperity With Positive Thinking</p>
                         </div>
                         <div class="strategy__badges strategy__badges-card">
                             <button class="strategy__badge strategy__badge-display">Art</button>
@@ -200,7 +212,7 @@
                             <img class="strategy__image-card" src="assets/images/strategy/pic2.png" alt="">
                         </div>
                         <div class="strategy__name">
-                            <p class="strategy__description">Motivation Is The First Step To Success</p>
+                            <p data-strategy="identifier-7" class="strategy__description">Motivation Is The First Step To Success</p>
                         </div>
                         <div class="strategy__badges strategy__badges-card">
                             <button class="strategy__badge strategy__badge-display">Culture</button>
@@ -211,7 +223,7 @@
                             <img class="strategy__image-card" src="assets/images/strategy/pic3.png" alt="">
                         </div>
                         <div class="strategy__name">
-                            <p class="strategy__description">Success Steps For Your Personal Or Business Life</p>
+                            <p data-strategy="identifier-8" class="strategy__description">Success Steps For Your Personal Or Business Life</p>
                         </div>
                         <div class="strategy__badges strategy__badges-card">
                             <button class="strategy__badge strategy__badge-display">Culture</button>
@@ -349,7 +361,7 @@
             </div>
         </div>
     </footer>
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </body>
 </html>
