@@ -1,8 +1,9 @@
-import { modalShowOnTargetDataset, modelCloseOnEvents } from './assets/js/modal.js'
+import setModalEvents from './assets/js/modal.js';
+import setTabsEvents from './assets/js/tabs.js';
 
 function main() {
-    modalShowOnTargetDataset();
-    modelCloseOnEvents();
+    setModalEvents();
+    setTabsEvents();
 }
 
 document.addEventListener('DOMContentLoaded', main);

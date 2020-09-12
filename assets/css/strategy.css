@@ -65,6 +65,10 @@
     font-weight: normal;
     font-size: 13px;
     line-height: 28px;
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    color: #544837;
+    cursor: pointer;
 }
 
 .strategy__badge:last-child {
@@ -75,13 +79,6 @@
     background: #FF9900;
     border: 1px solid #FF9900;
     color: #FFFFFF;
-    cursor: pointer;
-}
-
-.strategy__badge-disable {
-    background: #FFFFFF;
-    border: 1px solid #D7D7D7;
-    color: #544837;
     cursor: pointer;
 }
 
@@ -118,6 +115,10 @@
 .strategy__card-big {
     width: 787px;
     height: 377px;
+}
+
+.strategy__card-order {
+    order: -1;
 }
 
 .strategy__image {

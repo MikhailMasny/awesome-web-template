@@ -1,4 +1,4 @@
-import { MODAL, MODAL_BUTTON_CLOSE } from './constants.js'
+import { MODAL, MODAL_BUTTON_CLOSE } from './constants.js';
 
 function modalShow() {
     MODAL.classList.remove('modal__hidden');
@@ -38,7 +38,7 @@ function modelCloseOnEvents() {
     MODAL_BUTTON_CLOSE.addEventListener('click', modalClose);
 }
 
-export {
-    modalShowOnTargetDataset,
-    modelCloseOnEvents,
+export default function setModalEvents() {
+    modalShowOnTargetDataset();
+    modelCloseOnEvents();
 }
