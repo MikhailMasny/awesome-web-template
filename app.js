@@ -4,10 +4,10 @@ import setContactButtonEvent from './assets/js/input.js';
 import setMenuEvents from './assets/js/menu.js';
 
 function main() {
-    setModalEvents();
-    setTabsEvents();
-    setContactButtonEvent();
-    setMenuEvents();
+  setModalEvents();
+  setTabsEvents();
+  setContactButtonEvent();
+  setMenuEvents();
 }
 
 document.addEventListener('DOMContentLoaded', main);

@@ -1,91 +1,89 @@
 /* HEADER */
 
 .header {
-    background: #FFFFFF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .header__content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 78px;
 }
 
 .header__control {
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__burger {
-    display: none;
-    cursor: pointer;
+  display: none;
+  cursor: pointer;
 }
 
 /* HEADER NAVIGATION */
 
 .header__nav {
-    display: flex;
-    list-style-type: none;
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
 }
 
 .header__item {
-    cursor: pointer;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 28px;
-    color: #2F281E;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  color: #2f281e;
 }
 
 .header__item:hover {
-    color: #FF9900;
-}
-
-.header__item-indent {
-    margin-right: 17px;
+  color: #ff9900;
 }
 
 /* HEADER AUTH */
 
 .header__auth {
-    width: 232px;
-    display: flex;
-    justify-content: space-between;
+  width: 232px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__button {
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .header__button-login {
-    padding: 11px 25px;
-    border: 1px solid #BCD0E5;
-    color: #173A56;
-    background: #FFFFFF;
+  padding: 11px 25px;
+  border: 1px solid #bcd0e5;
+  color: #173a56;
+  background: #ffffff;
 }
 
 .header__button-login:hover {
-    background: #BCD0E5;
-    border: 1px solid #BCD0E5;
+  background: #bcd0e5;
+  border: 1px solid #bcd0e5;
 }
 
 .header__button-registration {
-    padding: 11px 28px;
-    border: none;
-    color: #FFFFFF;
-    background: #FF9900;
+  padding: 11px 28px;
+  border: none;
+  color: #ffffff;
+  background: #ff9900;
 }
 
 .header__button-registration:hover {
-    background: #FF7549;
+  background: #ff7549;
 }

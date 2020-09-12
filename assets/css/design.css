@@ -1,125 +1,125 @@
 /* SECTION DESIGN */
 
 .design {
-    padding-top: 55px;
-    background: url("/assets/images/design-background.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
+  padding-top: 57px;
+  background: url("/assets/images/design-background.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .design__content {
-    height: 494px;
+  height: 544px;
 }
 
 /* DESING TITLE */
 
 .design__title {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
 }
 
 .design__title-text {
-    width: 462px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 34px;
-    line-height: 46px;
-    text-align: center;
-    color: #2F281E;
+  width: 462px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  color: #2f281e;
 }
 
 /* DESIGN CARDS */
 
 .design__cards {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
 }
 
 .design__card {
-    width: 262px;
-    height: 178px;
+  width: 262px;
+  height: 178px;
 }
 
 /* DESIGN ICONS */
 
 .design__icon {
-    width: 50px;
-    height: 50px;
-    border-radius: 19px;
-    display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+  display: flex;
 }
 
 .design__fas-modified {
-    margin: auto;
-    color: #FFFFFF;
+  margin: auto;
+  color: #ffffff;
 }
 
 .design__icon-pointer {
-    background: #7752BE;
+  background: #7752be;
 }
 
 .design__icon-dev {
-    background: #FAB005;
+  background: #fab005;
 }
 
 .design__icon-heart {
-    background: #F03E3D;
+  background: #f03e3d;
 }
 
 .design__icon-time {
-    background: #4DADF7;
+  background: #4dadf7;
 }
 
 /* DESIGN BODY */
 
 .design__name {
-    padding-top: 30px;
-    padding-bottom: 16px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 30px;
-    color: #2F281E;
+  padding-top: 30px;
+  padding-bottom: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #2f281e;
 }
 
 .design__text {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
-    color: #544837;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
 }
 
 /* DESIGN BUTTON */
 
 .design__now {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .design__button {
-    box-sizing: border-box;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .design__button-registration {
-    border: none;
-    padding: 16px 38px;
-    color: #FFFFFF;
-    background: #FF7549;
+  border: none;
+  padding: 16px 38px;
+  color: #ffffff;
+  background: #ff7549;
 }
 
 .design__button-registration:hover {
-    background: #FF9900;
+  background: #ff9900;
 }

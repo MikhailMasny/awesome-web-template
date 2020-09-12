@@ -1,110 +1,110 @@
 @media screen and (max-width: 1004px) {
-    .wrapper {
-        width: 680px;
-    }
-    .header__control {
-        width: 260px;
-    }
-    .header__burger {
-        display: block;
-    }
-    .header__menu {
-        display: none;
-    }
-    .hero__link-indent {
-        margin-left: 20px;
-    }
-    .hero__banner {
-        overflow-x: hidden;
-    }
-    .hero__start {
-        width: 680px;
-    }
-    .design__content {
-        height: 710px;
-    }
-    .design__cards {
-        padding-bottom: 40px;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .design__card {
-        width: 275px;
-    }
-    .design__icon {
-        margin: 0 auto;
-    }
-    .design__name {
-        text-align: center;
-    }
-    .design__text {
-        text-align: center;
-    }
-    .strategy {
-        padding-bottom: 25px;
-    }
-    .strategy__cards {
-        height: 1600px;
-    }
-    .strategy__title-style {
-        text-align: center;
-    }
-    .strategy__text-style {
-        text-align: center;
-    }
-    .strategy__badges {
-        justify-content: center;
-    }
-    .strategy__card-normal {
-        width: 320px;
-    }
-    .strategy__card-big {
-        width: 320px;
-    }
-    .strategy__image-card {
-        height: 170px;
-    }
-    .about {
-        padding-top: 25px;
-    }
-    .about__title {
-        text-align: center;
-    }
-    .about__text {
-        text-align: center;
-    }
-    .about__cards {
-        height: 470px;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
-    .about__card {
-        width: 420px;
-    }
-    .contact__title {
-        text-align: center;
-    }
-    .contact__wrapper {
-        flex-wrap: wrap;
-    }
-    .contact__info {
-        width: auto;
-        padding-bottom: 50px;
-    }
-    .contact__text {
-        text-align: center;
-    }
-    .contact__phone {
-        justify-content: center;
-    }
-    .contact__form {
-        width: auto;
-    }
-    .contact__input {
-        width: 290px;
-    }
-    .contact__textarea {
-        width: 640px;
-    }
+  .wrapper {
+    width: 680px;
+  }
+  .header__control {
+    width: 260px;
+  }
+  .header__burger {
+    display: block;
+  }
+  .header__menu {
+    display: none;
+  }
+  .hero__link-indent {
+    margin-left: 20px;
+  }
+  .hero__banner {
+    overflow-x: hidden;
+  }
+  .hero__start {
+    width: 680px;
+  }
+  .design__content {
+    height: 710px;
+  }
+  .design__cards {
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .design__card {
+    width: 275px;
+  }
+  .design__icon {
+    margin: 0 auto;
+  }
+  .design__name {
+    text-align: center;
+  }
+  .design__text {
+    text-align: center;
+  }
+  .strategy {
+    padding-bottom: 25px;
+  }
+  .strategy__cards {
+    height: 1600px;
+  }
+  .strategy__title-style {
+    text-align: center;
+  }
+  .strategy__text-style {
+    text-align: center;
+  }
+  .strategy__badges {
+    justify-content: center;
+  }
+  .strategy__card-normal {
+    width: 320px;
+  }
+  .strategy__card-big {
+    width: 320px;
+  }
+  .strategy__image-card {
+    height: 170px;
+  }
+  .about {
+    padding-top: 25px;
+  }
+  .about__title {
+    text-align: center;
+  }
+  .about__text {
+    text-align: center;
+  }
+  .about__cards {
+    height: 470px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about__card {
+    width: 420px;
+  }
+  .contact__title {
+    text-align: center;
+  }
+  .contact__wrapper {
+    flex-wrap: wrap;
+  }
+  .contact__info {
+    width: auto;
+    padding-bottom: 50px;
+  }
+  .contact__text {
+    text-align: center;
+  }
+  .contact__phone {
+    justify-content: center;
+  }
+  .contact__form {
+    width: auto;
+  }
+  .contact__input {
+    width: 290px;
+  }
+  .contact__textarea {
+    width: 640px;
+  }
 }

@@ -1,33 +1,33 @@
 @media screen and (max-width: 1420px) {
-    .wrapper {
-        width: 980px;
-    }
-    .hero__link-indent {
-        margin-left: 8px;
-    }
-    .design__cards {
-        padding-bottom: 40px;
-    }
-    .design__card {
-        width: 200px;
-        height: 210px;
-    }
-    .strategy__card-normal {
-        width: 310px;
-    }
-    .strategy__card-big {
-        width: 645px;
-    }
-    .strategy__image-card {
-        height: 165px;
-    }
-    .about__card {
-        width: 310px;
-    }
-    .about__image {
-        left: 32px;
-    }
-    .contact__info {
-        width: 380px;
-    }
+  .wrapper {
+    width: 980px;
+  }
+  .hero__link-indent {
+    margin-left: 8px;
+  }
+  .design__cards {
+    padding-bottom: 40px;
+  }
+  .design__card {
+    width: 200px;
+    height: 210px;
+  }
+  .strategy__card-normal {
+    width: 310px;
+  }
+  .strategy__card-big {
+    width: 645px;
+  }
+  .strategy__image-card {
+    height: 165px;
+  }
+  .about__card {
+    width: 310px;
+  }
+  .about__image {
+    left: 32px;
+  }
+  .contact__info {
+    width: 380px;
+  }
 }
