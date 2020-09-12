@@ -1,7 +1,7 @@
-import { TABS_STRATEGIES, CARDS_STRATEGIES } from './constants.js';
+import { STRATEGY_TABS, STRATEGY_CARDS } from './constants.js';
 
 function setDisableAllTabs() {
-    TABS_STRATEGIES.forEach(tab => {
+    STRATEGY_TABS.forEach(tab => {
         if(tab.classList.contains('strategy__badge-enable')) {
             tab.classList.remove('strategy__badge-enable');
         }
@@ -13,7 +13,7 @@ function setEnableTargetTab(target) {
 }
 
 function dropAllCardSorts() {
-    CARDS_STRATEGIES.forEach(card => {
+    STRATEGY_CARDS.forEach(card => {
         if (card.classList.contains('strategy__card-order')) {
             card.classList.remove('strategy__card-order');
         }
@@ -21,7 +21,7 @@ function dropAllCardSorts() {
 }
 
 function setCardSortsByName(name) {
-    CARDS_STRATEGIES.forEach(card => {
+    STRATEGY_CARDS.forEach(card => {
         if (card.dataset.strategyName.includes(name))
         {
             card.classList.add('strategy__card-order');
